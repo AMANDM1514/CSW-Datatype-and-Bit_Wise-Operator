@@ -5,8 +5,6 @@ Note: don’t use if else.*/
 import java.util.Scanner;
 
 public class EvenNumberCheck {
-
-    // Method to check if a number is even
     public static boolean isEven(int num) {
         return (num % 2) == 0; // Returns true if num is even, false otherwise
     }
